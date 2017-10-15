@@ -80,7 +80,7 @@ public class PieCircle extends View {
             Pie pie = mDatas.get(i);
             mPaint.setColor(pie.color);
 
-            Log.i("TAG", "currentAngle == " + currentAngle);
+//            Log.i("TAG", "currentAngle == " + currentAngle);
 
             canvas.drawArc(rectF, currentAngle, pie.angle, true, mPaint);
             currentAngle += pie.angle;
